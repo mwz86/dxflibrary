@@ -55,5 +55,9 @@ namespace DXFLibrary
 			this.AddReplace(11,x);
 			this.AddReplace(21,y);
 		}
+		public void RotateText(double degree)
+	        {
+	            this.AddReplace(70, degree);
+	        }
 	}
 }
